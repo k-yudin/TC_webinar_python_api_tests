@@ -1,8 +1,4 @@
-# python-api-automation
-
-written in
-### Python 3, py.test
-
+# TeamCity webinar - python API tests
 
 ## Installation
 
@@ -12,7 +8,7 @@ written in
 ```pip3 install -r requirements.txt```
 
 ## Running the tests
-To start all the final tests from a terminal, inside the project, run ```python3 -m pytest --alluredir=test_results/ framework_example/tests```
+To start all the final tests from a terminal, inside the project, run ```python3 -m pytest --alluredir=test_results/ tests```
 
 ## Report
 To generate the report, run ```allure serve test_results```
@@ -27,6 +23,3 @@ More about Allure implementation for pytest is [here](https://docs.qameta.io/all
 4. To generate a good report, do not forget to use @allure decorators and mark features and steps.
 
 [More about pytest.](https://docs.pytest.org/en/latest/getting-started.html#create-your-first-test)
-
-
-##### _Happy testing!_
