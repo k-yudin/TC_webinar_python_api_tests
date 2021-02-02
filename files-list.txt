@@ -1,0 +1,9 @@
+drwxr-xr-x  core
+-rw-r--r--  Dockerfile
+-rw-r--r--  environment.py
+drwxr-xr-x  .git
+-rw-r--r--  .gitignore
+-rw-r--r--  __init__.py
+-rw-r--r--  README.md
+-rw-r--r--  requirements.txt
+drwxr-xr-x  tests
