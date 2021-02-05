@@ -10,12 +10,14 @@
 ## Running from a terminal
 ```python3 -m pytest --alluredir=test_results/ tests```
 
+## Report
+To generate the report, run ```allure serve test_results```
+
+More about Allure implementation for pytest is [here](https://docs.qameta.io/allure/#_pytest).
+
 ## Running inside the Docker
 ```docker build -t pytest_check .```
 
 ```docker run --rm --mount type=bind,src=$(pwd),target=/tests/ pytest_check```
 
-## Report
-To generate the report, run ```allure serve test_results```
 
-More about Allure implementation for pytest is [here](https://docs.qameta.io/allure/#_pytest).
