@@ -8,6 +8,7 @@
 ```pip3 install -r requirements.txt```
 
 ## Running from a terminal
+Set domain variable PYTEST_DOMAIN, then:
 ```python3 -m pytest --alluredir=test_results/ tests```
 
 ## Report
