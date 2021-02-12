@@ -23,7 +23,3 @@ class BaseCase:
             return {headers_name: response.headers[headers_name]}
         else:
             raise Exception(f"Cannot find header with the name {headers_name} in the last response")
-
-    @staticmethod
-    def create_unique_email(base: str, domain="example.com"):
-        return f'{base}+{datetime.now().strftime("%m%d%Y%H%M%S")}@{domain}'
