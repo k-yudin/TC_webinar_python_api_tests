@@ -14,4 +14,6 @@ RUN pip install -r requirements.txt
 
 ENV ENVIRONMENT=dev
 
+ENV TEAMCITY_VERSION=85899
+
 CMD python -m pytest -s --alluredir=test_results/ tests/
