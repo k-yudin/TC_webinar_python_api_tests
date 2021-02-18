@@ -1,4 +1,3 @@
-from datetime import datetime
 from requests import Response
 from core.logger import Logger
 
