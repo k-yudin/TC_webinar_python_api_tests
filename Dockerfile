@@ -12,8 +12,8 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-ENV ENVIRONMENT=dev
-
 ENV TEAMCITY_VERSION=85899
+
+#ENV PYTEST_DOMAIN="https://playground.learnqa.ru/ajax/"
 
 CMD python -m pytest -s --alluredir=test_results/ tests/
