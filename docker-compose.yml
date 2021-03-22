@@ -1,3 +1,4 @@
+# docker-compose up --abort-on-container-exit --build
 version: "3"
 
 services:
