@@ -23,3 +23,5 @@ More about Allure implementation for pytest is [here](https://docs.qameta.io/all
 4. To generate a good report, do not forget to use @allure decorators and mark features and steps.
 
 [More about pytest.](https://docs.pytest.org/en/latest/getting-started.html#create-your-first-test)
+
+
