@@ -20,6 +20,3 @@ More about Allure implementation for pytest is [here](https://docs.qameta.io/all
 ```docker build -t pytest_check .```
 
 ```docker run --rm --mount type=bind,src=$(pwd),target=/tests/ pytest_check```
-
-
-
