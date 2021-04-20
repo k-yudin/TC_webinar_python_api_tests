@@ -1,4 +1,4 @@
-# TeamCity webinar - python API tests
+# TeamCity and python API tests
 
 ## Installation to run from a terminal
 
