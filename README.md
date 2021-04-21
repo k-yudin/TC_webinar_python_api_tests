@@ -1,4 +1,4 @@
-# TeamCity and python API tests
+# TeamCity and Python API tests
 
 ## Installation to run from a terminal
 
